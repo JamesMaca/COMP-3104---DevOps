@@ -1,0 +1,12 @@
+{
+  "name": "comp-3104---devops",
+  "version": "1.0.0",
+  "description": "- James\r - MacAloney",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" 1"
+  },
+  "keywords": ["devops", "nodejs", "express", "web"],
+  "author": "James MacAloney - 101362896",
+  "license": "ISC"
+}
