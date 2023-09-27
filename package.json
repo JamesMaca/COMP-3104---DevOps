@@ -4,7 +4,12 @@
   "description": "- James\r - MacAloney",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" 1"
+    "test": "echo \"Error: no test specified\" 1",
+    "start" : "node index.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/JamesMaca/COMP-3104---DevOps.git"
   },
   "keywords": ["devops", "nodejs", "express", "web"],
   "author": "James MacAloney - 101362896",
