@@ -4,7 +4,7 @@
   "description": "- James\r - MacAloney",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" 1",
+    "test": "echo \"Warning: No tests created yet.\"",
     "start" : "node index.js"
   },
   "repository": {
