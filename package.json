@@ -7,13 +7,20 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/JamesMaca/COMP-3104---DevOps.git"
+    "type": "git",
+    "url": "https://github.com/JamesMaca/COMP-3104---DevOps.git"
   },
-  "keywords": ["devops", "nodejs", "express", "web"],
+  "keywords": [
+    "devops",
+    "nodejs",
+    "express",
+    "web"
+  ],
   "author": "James MacAloney - 101362896",
   "license": "ISC",
   "dependencies": {
@@ -22,7 +29,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "eslintConfig": {
@@ -42,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
